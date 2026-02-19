@@ -1,0 +1,26 @@
+{
+  "name": "@ktmcp-cli/cloudmersive",
+  "version": "1.0.0",
+  "description": "Production-ready CLI for Cloudmersive OCR API - extract text from images and PDFs",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "cloudmersive": "bin/cloudmersive.js"
+  },
+  "keywords": ["cloudmersive", "ocr", "image", "pdf", "text", "cli", "api", "ktmcp"],
+  "author": "KTMCP",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "axios": "^1.6.7",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "conf": "^12.0.0",
+    "form-data": "^4.0.0",
+    "fs": "^0.0.1-security"
+  },
+  "engines": { "node": ">=18.0.0" },
+  "repository": { "type": "git", "url": "git+https://github.com/ktmcp-cli/cloudmersive.git" },
+  "homepage": "https://killthemcp.com/cloudmersive-cli",
+  "bugs": { "url": "https://github.com/ktmcp-cli/cloudmersive/issues" }
+}
